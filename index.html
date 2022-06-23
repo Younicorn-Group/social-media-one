@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="styles/fontawesome.min.css"> -->
+  <link rel="stylesheet" href="styles/all.min.css">
+  <link rel="stylesheet" href="styles/scroll_nav.css">
+</head>
+
+<body class="bg-secondary">
+  <header id="navBar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand bg-primary py-1 px-2 rounded-circle" href="#"><i class="fa fa-snowman"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="d-flex bg-light rounded-pill">
+          <input class="form-control border-0 bg-transparent" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-sm" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#" class="nav-link mb-0"><i class="fa fa-home me-2"></i>Home</a></li>
+            <li class="nav-item mx-4"><a href="#" class="nav-link mb-0"><i class="fa fa-hotel me-2"></i>Market</a></li>
+            <li class="nav-item me-5"><a href="#" class="nav-link mb-0"><i class="fa fa-users-cog me-2"></i>Groups</a></li>
+            <li class="nav-item me-3 bg-primary rounded-circle px-2 py-1"><a class="nav-link" aria-current="page" href="#"><i class="fa fa-cog text-white"></i></a></li>
+            <li class="nav-item bg-primary rounded-circle px-2 py-1"><a class="nav-link" aria-current="page" href="#"><i class="fa fa-user text-white"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main m-1 d-flex justify-content-between" id="main">
+    <div class="left bg-dark text-white p-3 rounded-3 w-25">
+
+      <div class="name d-flex align-items-center mb-4">
+        <img src="img/jane.png" alt="" class="rounded-circle me-4" width="50">
+        <h5 class="mb-0">Jane Doe</h5>
+      </div>
+      <hr>
+      <div class="friends mb-3">
+        <a href="#" class=" d-flex align-items-center text-decoration-none">
+          <div class="bg-info rounded-circle py-1 px-2 me-4"><i class="fa fa-user-friends text-white"></i></div>
+          <h6 class="mb-0 text-white">Friends</h6>
+        </a>
+      </div>
+      <div class="groups mb-3">
+        <a href="#" class=" d-flex align-items-center text-decoration-none">
+          <div class="bg-success rounded-circle py-1 px-2 me-4"><i class="fa fa-users-cog text-white"></i></div>
+          <h6 class="mb-0 text-white">Groups</h6>
+        </a>
+      </div>
+      <div class="market mb-3">
+        <a href="#" class=" d-flex align-items-center text-decoration-none">
+          <div class="bg-warning rounded-circle py-1 px-2 me-4"><i class="fa fa-hotel text-white"></i></div>
+          <h6 class="mb-0 text-white">Market</h6>
+        </a>
+      </div>
+      <div class="play mb-3">
+        <a href="#" class=" d-flex align-items-center text-decoration-none">
+          <div class="bg-danger rounded-circle py-1 px-2 me-4"><i class="fa fa-play-circle text-white"></i></div>
+          <h6 class="mb-0 text-white">Play</h6>
+        </a>
+      </div>
+      <div class="memories mb-3">
+        <a href="#" class=" d-flex align-items-center text-decoration-none">
+          <div class="bg-secondary rounded-circle py-1 px-2 me-4"><i class="fa fa-clock text-white"></i></div>
+          <h6 class="mb-0 text-white">Memories</h6>
+        </a>
+      </div>
+      <hr>
+      <h4 class="mb-4">Younicorn Digitals Store</h4>
+      <img src="img/Digitals_Post_2.jpg" alt="" class="img-fluid mb-4">
+      <a href="#" class="bg-light p-2 rounded-3 text-decoration-none">Visit Store</a>
+      <hr>
+      <p>Copyright © 2021 Company Name. All Rights Reserved</p>
+    </div>
+
+    <div class="middle bg-dark text-white mx-1 p-3 rounded-3 w-50 overflow-scroll">
+      <div class="top bg-secondary p-3 m-1 rounded-3">
+        <div class="d-flex">
+          <img src="img/jane.png" alt="" class="rounded-circle me-3" width="50">
+          <input class="form-control border-0 rounded-pill" type="search" placeholder="What's in your mind?" aria-label="Search" style="background-color: rgba(255,255,255,0.7);">
+        </div>
+        <hr>
+        <div class="d-flex justify-content-center">
+          <div class="video d-flex align-items-center me-4">
+            <i class="fa fa-video text-danger"></i>
+            <h6 class="mb-0 ms-3">Upload Video</h6>
+          </div>
+          <div class="photo d-flex align-items-center me-4">
+            <i class="fa fa-camera text-info"></i>
+            <h6 class="mb-0 ms-3">Upload Photo</h6>
+          </div>
+          <div class="doc d-flex align-items-center">
+            <i class="fa fa-smile text-warning"></i>
+            <h6 class="mb-0 ms-3">Upload Document</h6>
+          </div>
+        </div>
+      </div>
+      <div class="post-section m-1 mt-3 bg-secondary p-3 rounded-3">
+        <div class="profile d-flex align-items-center">
+          <img src="img/You-D2.png" alt="" class="me-3 bg-light px-2 py-1 rounded-3" width="40">
+          <div class="">
+            <h6 class="mb-1">Younicorn Digitals</h6>
+            <div class="mb-0" style="font-size: 12px;">Just Now <i class="fa fa-globe"></i></div>
+          </div>
+        </div>
+        <p class="my-3">Younicorn Digitals, an integral part of Younicorn Group provides web development services to customers. A website makes a business be seen and recognized in the market. The better the website, the more the customers are attracted to your business. In order to drive more traffic to your website, your website should look aesthetic.</p>
+        <div class="post">
+          <img src="img/SM.png" alt="" class="img-fluid bg-light rounded-3 p-3">
+          <div class="buttons mt-3">
+            <button class="btn btn-md btn-danger"><i class="fa fa-thumbs-up"></i> Like</button>
+            <button class="btn btn-md btn-warning mx-3"><i class="fa fa-comment"></i> Comment</button>
+            <button class="btn btn-md btn-info"><i class="fa fa-share"></i> Share</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right bg-dark text-white p-3 rounded-3 w-25">
+      <div class="friends-list">
+        <h4 class="mb-3">Online Friends</h4>
+        <a href="#" class=" d-flex align-items-center text-decoration-none mb-3">
+          <img src="img/john.png" alt="" width="50" class="rounded-circle py-1 px-2 me-3">
+          <h6 class="mb-0 text-white">John Thakur</h6>
+        </a>
+        <a href="#" class=" d-flex align-items-center text-decoration-none mb-3">
+          <img src="img/john.png" alt="" width="50" class="rounded-circle py-1 px-2 me-3" style="filter: invert();">
+          <h6 class="mb-0 text-white">Smith Singh</h6>
+        </a>
+        <a href="#" class=" d-flex align-items-center text-decoration-none mb-3">
+          <img src="img/jane.png" alt="" width="50" class="rounded-circle py-1 px-2 me-3" style="filter:saturate(60);">
+          <h6 class="mb-0 text-white">Janice Rane</h6>
+        </a>
+        <a href="#" class=" d-flex align-items-center text-decoration-none">
+          <img src="img/jane.png" alt="" width="50" class="rounded-circle py-1 px-2 me-3" style="filter: contrast(20)">
+          <h6 class="mb-0 text-white">Samantha Sawant</h6>
+        </a>
+      </div>
+      <hr>
+      <div class="chat-box">
+        <div class="box bg-light p-3 rounded-3">
+          <a href="#" class=" d-flex align-items-center text-decoration-none mb-3" style="padding-bottom: 240px;">
+            <img src="img/john.png" alt="" width="50" class="rounded-circle py-1 px-2 me-3" style="filter: invert();">
+            <h6 class="mb-0 text-dark">Smith Singh</h6>
+          </a>
+          <input class="form-control rounded-0 bg-transparent border-top" type="search" placeholder="Start Typing..." aria-label="search">
+        </div>
+      </div>
+      <hr>
+      <div class="groups">
+        <h4 class="mb-3">Your Groups</h4>
+        <div class="group-1 d-flex align-items-center bg-light p-3 rounded-3">
+          <i class="fa fa-laptop me-3 text-info"></i>
+          <h6 class="mb-0 text-dark">Younicorn Digitals</h6>
+        </div>
+        <div class="group-2 d-flex align-items-center bg-light p-3 rounded-3 my-3">
+          <i class="fa fa-leaf me-3 text-success"></i>
+          <h6 class="mb-0 text-dark">Younicorn Agriculture</h6>
+        </div>
+        <div class="group-2 d-flex align-items-center bg-light p-3 rounded-3">
+          <i class="fa fa-tshirt me-3 text-danger"></i>
+          <h6 class="mb-0 text-dark">Younicorn Fashion</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Additional JS -->
+  <script type="text/javascript" src="/main.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/all.min.js"></script>
+  <script type="text/javascript" src="js/scroll_nav.js"></script>
+</body>
+
+</html>
